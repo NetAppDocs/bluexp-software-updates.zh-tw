@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: get-started/prerequisites-ontap-update.html 
+keywords: prerequisites for ontap update, ontap update requirements, ontap update versions 
+summary: 在繼續 ONTAP 更新之前、請先檢閱先決條件和要求。 
+---
+= 使用 BlueXP  軟體更新更新 ONTAP 的必要條件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+首先、請確認您的營運環境、登入、網路存取和網頁瀏覽器是否準備就緒。
+
+若要使用 BlueXP  軟體更新、您應確保環境符合所有需求。
+
+* 有效的 BlueXP  帳戶應該可用。
+* 工作環境是在 BlueXP  中設定。
+* 系統管理員 Privileges 可使用系統管理員執行軟體更新。
+* 執行軟體更新時、系統管理員認證可用於所需的叢集。
+* 叢集中的所有節點都在傳送 AutoSupport 資料。
+* 所有節點均應在 ONTAP 9.10 或更新版本上執行。
+* 節點不應處於 MetroCluster 組態中。
+

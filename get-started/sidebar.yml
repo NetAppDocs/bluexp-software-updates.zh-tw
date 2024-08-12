@@ -1,0 +1,14 @@
+---
+section: get-started
+title: 開始使用 ONTAP 更新
+entries:
+- title: 瞭解 ONTAP 更新
+  url: "/get-started/software-updates.html"
+- title: 先決條件
+  url: "/get-started/prerequisites-ontap-update.html"
+- title: 快速入門
+  url: "/get-started/quick-start-ontap-update.html"
+- title: 存取 BlueXP  軟體更新
+  url: "/get-started/login-software-updates.html"
+- title: 常見問題集
+  url: "/get-started/software-updates-faq.html"

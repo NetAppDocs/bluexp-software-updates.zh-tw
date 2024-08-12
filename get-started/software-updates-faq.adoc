@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates-faq.html 
+keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions 
+summary: 查看 BlueXP  軟體更新常見問題集的答案。 
+---
+= BlueXP  軟體更新的常見問題集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想要快速回答問題、這個常見問題集就能幫上忙。
+
+* BlueXP  軟體更新 URL 是什麼？ *
+
+對於 URL 、在瀏覽器中輸入： https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 以存取 BlueXP  主控台。
+
+* 您是否需要使用 BlueXP  軟體更新的授權？ *
+
+不需要 NetApp 授權檔案（ NLF ）。
+
+爲什麼即使更新了 ONTAP 版本的羣集，我仍無法在歷史記錄選項卡中查看該羣集？ *
+
+叢集需要 2 到 3 小時才能出現在歷程記錄索引標籤中。叢集的 ONTAP 版本更新後、就會產生 AutoSupport 。處理 AutoSupport 資料並反映 ONTAP 的最新版本需要 2 到 3 小時。
+
+* 為什麼我在軟體更新儀表板中看到舊版 ONTAP 、即使更新叢集的 ONTAP 版本也一樣？ *
+
+叢集需要 2 到 3 小時才能出現在歷程記錄索引標籤中。叢集的 ONTAP 版本更新後、就會產生 AutoSupport 。處理 AutoSupport 資料並反映 ONTAP 的最新版本需要 2 到 3 小時。
+
+* 為什麼我會看到不同畫面的不同更新？ *
+
+這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支援ONTAP 的支援的支援系統"]。
+
+* 我需要什麼才能探索叢集？ *
+
+若要為所需的叢集執行 ONTAP 更新、您需要 ONTAP 叢集 IP 和管理認證才能連線至叢集。在叢集探索過程中、您需要提供這些詳細資料、才能自動執行 ONTAP 更新。

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f6f16bb8e1efb9727b0dcf9a90373ffb" category="summary">在升級 ONTAP 儲存系統之前、請先瞭解每個 ONTAP 版本的優點和風險。</block>
+  <block id="3e01b70f098c97a8e8c6a729636b23d4" category="doc">選擇 ONTAP 目標 9.10 版或更新版本</block>
+  <block id="b1a7397c6fa96ca3e42a2fb189b81d51" category="paragraph">在選擇儲存系統的 ONTAP 版本之前、請務必先找出與 ONTAP 目標版本相關的優點並瞭解風險。</block>
+  <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">您可以選擇目標版本、並將其與目前版本進行比較、以瞭解在 ONTAP 上更新至特定版本的好處。您也可以看到將解決的風險、以及更新至特定 ONTAP 版本時所產生的新風險（如果有）。</block>
+  <block id="74083ab8069d07080edb25320474b13b" category="admonition">您只能在執行 ONTAP 9.10 或更新版本時使用此功能。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="a2e540bef6a5eaec46a32ca4edd49a81" category="list-text">從 BlueXP  左側導覽中、選取 * 健全狀況 &gt; 軟體更新 * 。</block>
+  <block id="a3357e3f3f28af2c155b25638df91fdb" category="paragraph">畫面會顯示需要軟體更新的叢集清單。您可以更新至建議的目標版本、或選擇其他版本。</block>
+  <block id="61a6d655671eebbd633c1d84fae09e17" category="cell">如果您...</block>
+  <block id="5e2ad6fd9deb412d871137094ee43ef0" category="cell">執行此動作...</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="d595af5345baae69010ca28d3b2a07af" category="paragraph">想要更新至建議的版本</block>
+  <block id="d0fe00198465906dc8b10bbe7a0ba622" category="list-text">在 * 目標版本 * 欄中、按一下 * 比較版本 * 以檢視更新至建議 ONTAP 版本的功能優點和風險效益。</block>
+  <block id="384993cefe135934c52ec27ded6a4b00" category="list-text">選取並檢視將解決的風險、將持續存在的風險、以及更新後將引進的新風險等相關資訊。</block>
+  <block id="dde03ddfea2af6f3d3cbdacf6273f14f" category="list-text">或者、按一下 * 下載更新計畫 * 、下載更新計畫的複本。</block>
+  <block id="81c582603d9979ae5efc5399c20207bb" category="list-text">按一下 * 開始更新 * 以啟動更新程序。</block>
+  <block id="e60aa2a846853b9259eb63596645cf46" category="paragraph">想要選擇其他版本</block>
+  <block id="ce8713ab9112653cc16cb5634de213b3" category="list-text">在 * 目標版本 * 欄中、按一下下拉式清單、然後選取 * 選擇其他版本 * 。</block>
+  <block id="5283309105a904a39b6bafe0f67055f3" category="list-text">選擇版本以檢視功能優點和風險效益。</block>
+  <block id="8458cbd22efac91a6b68db38492fd62e" category="summary">修正 ONTAP 封鎖程式、並確認會導致您無法完成 ONTAP 更新的警告。</block>
+  <block id="7f0db81aba09a1ad44cbe411b40d1b00" category="doc">修正並認可 ONTAP 封鎖程式</block>
+  <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">識別出 ONTAP 儲存系統的 ONTAP 目標版本之後、您應該修正並認可所有封鎖程式、並在更新 ONTAP 儲存系統之前檢閱警告。</block>
+  <block id="2458f462c36fbeec4b6536099135f298" category="paragraph">修正並認可所有封鎖程式是強制性的、並確保軟體更新程序順暢無礙。</block>
+  <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">畫面會顯示需要軟體更新的叢集清單。</block>
+  <block id="e11cab9533afda7fed240f31c60b96f3" category="list-text">識別儲存系統的 ONTAP 目標版本。如需識別 ONTAP 目標版本的相關資訊，請參閱 <block ref="538e53c5274334201439b22929ae7c33" category="inline-link-macro-rx"></block>。</block>
+  <block id="06cd15ffbdad395f54961af4b4da3f7d" category="list-text">決定 ONTAP 目標版本之後、請按一下 * 準備更新 * 以啟動更新程序。</block>
+  <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">畫面會顯示封鎖程式和警告清單。</block>
+  <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">選取封鎖程式以檢視修正封鎖程式的指示。</block>
+  <block id="8aa655b81ac9a54174b8b2f3c0e078b3" category="list-text">手動執行所提供的步驟來修正封鎖程式。</block>
+  <block id="dd65b396655e879f1cc555905f551ba9" category="list-text">選取已修復的封鎖程式、然後按一下 * 「確認選取 * 」、確認該封鎖程式已修復。</block>
+  <block id="deef003c349019061441ab60dd6ecf90" category="admonition">您必須修正並認可所有封鎖程式、才能繼續更新。</block>
+  <block id="f00541528c969eb6abe8cce5f5281ccc" category="list-text">按一下 * 警告 * 索引標籤、在繼續進行軟體更新之前檢閱警告。</block>
+  <block id="3a49822934e3057e70050398c92aa888" category="list-text">按一下 * 「 Acknowledge * （確認 * ）」標籤以檢視已修正的封鎖程式。</block>
+  <block id="5143d195cc41390e0e4722e37a8b670d" category="list-text">按一下 * 繼續更新 * 以繼續更新程序。</block>
+  <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">更新您的 ONTAP 儲存系統、以充分利用新的增強功能。</block>
+  <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="doc">完成 ONTAP 儲存系統更新</block>
+  <block id="4069d368e6b24c7032f0eedc33a1601d" category="paragraph">識別出 ONTAP 目標版本並修正並確認所有封鎖程式之後、您現在即可完成 ONTAP 儲存系統的更新。</block>
+  <block id="5095c7afe8ce77fcc7b92f22c350fe82" category="list-text">修正並認可 ONTAP 封鎖程式。如需修復封鎖程式的相關資訊，請參閱 <block ref="d61905fe2b2d7d79294414b81cd336cb" category="inline-link-macro-rx"></block>。</block>
+  <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">閱讀並接受終端使用者授權合約。</block>
+  <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">等待擷取 ONTAP 映像。</block>
+  <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">按一下 * 安裝更新 * 以完成更新程序。</block>
+  <block id="2086b43ba817368b623c8b845f4a2c86" category="summary">驗證 ONTAP 更新的狀態、以決定應執行的後續步驟。</block>
+  <block id="2cffa96ea0fb9d5b545b8cc40a61d4a3" category="doc">驗證 ONTAP 儲存系統更新的狀態</block>
+  <block id="7735ef900b37ebdc5493537c82501786" category="paragraph">ONTAP 更新程序完成後、您應該檢查 ONTAP 更新的狀態。</block>
+  <block id="82eb3f6374cb74069e9ac86a78c4c7b7" category="list-text">按一下 * 歷程記錄 * 索引標籤以檢視 ONTAP 更新的狀態。</block>
+  <block id="0ca4b31fab05c7c65ce3168c99116299" category="admonition">叢集需要 2 到 3 小時才能反映在歷程記錄索引標籤中。</block>
+  <block id="f01ff61f665dc565b36723f4f7ba7acb" category="summary">登入並存取 BlueXP  軟體更新服務。</block>
+  <block id="620719f65d1fb1b1420157fab1aa5208" category="doc">存取 BlueXP  軟體更新</block>
+  <block id="1686b410540845de1f8283165293bd1a" category="paragraph">您可以登入 NetApp BlueXP  來使用 BlueXP  軟體更新。</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">深入瞭解登入</block>
+  <block id="315c997f74955c2a02119a24a36df47e" category="paragraph">若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。<block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block>。</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP主控台</block>
+  <block id="5d97159a9457a24e7a43d040b2d4b33f" category="list-text">開啟網頁瀏覽器並前往 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block>。</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">出現 NetApp BlueXP 登入頁面。</block>
+  <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">登入 BlueXP 。</block>
+  <block id="24958f1bc0c9e80abac7daea72c06854" category="list-text">從 BlueXP  左側導覽中、選取 * 健全狀況 &gt; 軟體更新。 *</block>
+  <block id="20b41c007263bf3cb834352319595be6" category="summary">在繼續 ONTAP 更新之前、請先檢閱先決條件和要求。</block>
+  <block id="c68f0236667091f737bdf862786b96a8" category="doc">使用 BlueXP  軟體更新更新 ONTAP 的必要條件</block>
+  <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">首先、請確認您的營運環境、登入、網路存取和網頁瀏覽器是否準備就緒。</block>
+  <block id="7efc4f28b854970100677afdf18e3743" category="paragraph">若要使用 BlueXP  軟體更新、您應確保環境符合所有需求。</block>
+  <block id="c7fbf0bb1130a7da7132ca8b55e5c466" category="list-text">有效的 BlueXP  帳戶應該可用。</block>
+  <block id="b68e536f6fee62f045577ca15701c729" category="list-text">工作環境是在 BlueXP  中設定。</block>
+  <block id="f79a5712ad4df34137efe352ad13262f" category="list-text">系統管理員 Privileges 可使用系統管理員執行軟體更新。</block>
+  <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">執行軟體更新時、系統管理員認證可用於所需的叢集。</block>
+  <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">叢集中的所有節點都在傳送 AutoSupport 資料。</block>
+  <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">所有節點均應在 ONTAP 9.10 或更新版本上執行。</block>
+  <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">節點不應處於 MetroCluster 組態中。</block>
+  <block id="2dc7ae12158353c62d51898b1414574d" category="summary">開始順暢快速地更新 ONTAP 儲存系統。</block>
+  <block id="53e01f87a36e506053f9d6c3a230df29" category="doc">使用 BlueXP  軟體更新快速開始更新 ONTAP</block>
+  <block id="573c9d215bcc8c1dc02e08dfd5d679ec" category="paragraph">以下概述開始使用 BlueXP  軟體更新所需的步驟。每個步驟中的連結都會帶您前往提供更多詳細資料的頁面。</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 審查先決條件</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">確保您的環境符合這些要求</block>
+  <block id="87fff80f2241e505ad84448efa9c28ca" category="paragraph"><block ref="2be4a4a8c055498d1eeb2f10d5c431ac" category="inline-link-macro-rx"></block>。</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
+  <block id="c70be312b56de441aa18134a66910283" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 更新 ONTAP 儲存系統</block>
+  <block id="8f58f58fe7eea7cb206fb56f08f86519" category="paragraph">您應該完成所有工作來更新 ONTAP 儲存系統。</block>
+  <block id="826fb5e9f8960f11bd43ffdb851cd6ec" category="inline-link-macro">識別 ONTAP 目標版本</block>
+  <block id="222c85c08b5a96f00b67ecc9a862d8e3" category="list-text"><block ref="56952887698b933e80133d586b291f77" category="inline-link-macro-rx"></block>。</block>
+  <block id="34901ddbf2069e3a9f4f51ac2932a5f0" category="inline-link-macro">修正並認可封鎖程式</block>
+  <block id="76c686ca7cefba70f2446a6f2ef444a0" category="list-text"><block ref="56ca2379e58715613fbc3346e3417d9e" category="inline-link-macro-rx"></block>。</block>
+  <block id="aefddf6f7caf3ec5d9c3b6b26eb75df1" category="inline-link-macro">完成 ONTAP 儲存系統更新</block>
+  <block id="c6134ea619bf0932dd262fee8468d30b" category="list-text"><block ref="92eb7c55943780703f0961bd4e1eac6c" category="inline-link-macro-rx"></block>。</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 接下來呢？</block>
+  <block id="a92f42e8a6bb6042f669f3abd9ce4ccc" category="paragraph">更新 ONTAP 儲存系統之後、接下來您可以做些什麼。</block>
+  <block id="20d07d8fbe66f0a93aa19234a6281583" category="paragraph"><block ref="64ffd4ac1c7206890e581f7b5a3f2be9" category="inline-link-macro-rx"></block>。</block>
+  <block id="b272f27e62779943682f53ea50ac3fd5" category="summary">查看 BlueXP  軟體更新常見問題集的答案。</block>
+  <block id="9f908c51aaf72b8fdb723584bba658d1" category="doc">BlueXP  軟體更新的常見問題集</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="paragraph">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
+  <block id="e56ded8fd48409401c6fff468729d8a6" category="paragraph">* BlueXP  軟體更新 URL 是什麼？ *</block>
+  <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
+  <block id="97196dcbb301c06780e3699ce570a095" category="paragraph">對於 URL 、在瀏覽器中輸入：<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 以存取 BlueXP  主控台。</block>
+  <block id="9c4ea70df824ece9c271cf463ecd68cf" category="paragraph">* 您是否需要使用 BlueXP  軟體更新的授權？ *</block>
+  <block id="5f2ba40ecab933bbf8f2c6806901fc08" category="paragraph">不需要 NetApp 授權檔案（ NLF ）。</block>
+  <block id="6a9fe8c909f24f7202b4616f5d777225" category="paragraph">爲什麼即使更新了 ONTAP 版本的羣集，我仍無法在歷史記錄選項卡中查看該羣集？ *</block>
+  <block id="acb74063a7a6c957d80c2fbc881d9484" category="paragraph">叢集需要 2 到 3 小時才能出現在歷程記錄索引標籤中。叢集的 ONTAP 版本更新後、就會產生 AutoSupport 。處理 AutoSupport 資料並反映 ONTAP 的最新版本需要 2 到 3 小時。</block>
+  <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">* 為什麼我在軟體更新儀表板中看到舊版 ONTAP 、即使更新叢集的 ONTAP 版本也一樣？ *</block>
+  <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">* 為什麼我會看到不同畫面的不同更新？ *</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">支援ONTAP 的支援的支援系統</block>
+  <block id="9acf8bc64d0336944e98a10c4b868c28" category="paragraph">這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
+  <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">* 我需要什麼才能探索叢集？ *</block>
+  <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">若要為所需的叢集執行 ONTAP 更新、您需要 ONTAP 叢集 IP 和管理認證才能連線至叢集。在叢集探索過程中、您需要提供這些詳細資料、才能自動執行 ONTAP 更新。</block>
+  <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">使用 BlueXP  軟體更新、順暢地更新您的 ONTAP 儲存系統、以充分利用新的增強功能。</block>
+  <block id="4a4ca306c87f7718653f5a8ebca8584c" category="doc">瞭解 BlueXP  軟體更新</block>
+  <block id="4baad46ac6519d24a604d0592262d3a2" category="paragraph">您可以使用 BlueXP  軟體更新來更新 ONTAP 儲存系統、以利用新的增強功能。這有助於降低成本、加速關鍵工作負載、並改善安全性。</block>
+  <block id="140dd9258bb13766fefc6da02514ad8e" category="paragraph">BlueXP  軟體更新服務可讓客戶簡化 ONTAP 更新。它可自動化評估、規劃及執行程序。智慧型升級顧問會預測哪些版本最適合特定環境、建議版本以修正問題、提高效率並提高系統安全性、讓客戶能夠判斷出最符合需求的選項。然後、它會散佈軟體套件、並自動執行自動化的非經銷升級（ andu ）、而不受支援服務的影響。</block>
+  <block id="933247e0be7796a309cfa4c95bd34938" category="section-title">支援的系統</block>
+  <block id="1a326a008d82e9276c86382d2622dbc4" category="section-title">系統ONTAP</block>
+  <block id="ce2747e858185215705d6b23a84eab2b" category="paragraph">只有在 ONTAP 9.10 或更新版本上執行時、才能使用 BlueXP  軟體更新服務來完成 ONTAP 更新。</block>
+  <block id="41925df988245764ca51e3f019b7e67f" category="paragraph">下列資訊提供不同 ONTAP 版本的軟體更新程序：</block>
+  <block id="41ca04e9eb8e8b4b1e9ab896420680d1" category="cell">*目前的ONTAP版本*</block>
+  <block id="f50b087d08c30ad58b6a4e58fec94218" category="cell">* 更新程序 *</block>
+  <block id="ec3d19b838303db83f08c34ee1acef64" category="cell">9.12 及更高版本</block>
+  <block id="73787bf0891d523741f6f075ec7982e4" category="cell">ONTAP 更新的所有步驟都會在 BlueXP  中進行。</block>
+  <block id="4911e961085841443a38c7723e51db5f" category="cell">9.10 至 9.12</block>
+  <block id="ad8c8640120f379f95136f4179e71761" category="inline-link-macro">設定連接器</block>
+  <block id="73693bc2f9508bbe65f1a6eab36c84fb" category="cell">ONTAP 更新的準備工作會在 BlueXP  軟體更新畫面中進行。您將被導覽至系統管理員、以執行實際的 ONTAP 更新。若要在 BlueXP  中執行 ONTAP 更新的所有步驟，您需要 <block ref="2bd43679fb415036cb932eed13861b20" category="inline-link-macro-rx"></block>。</block>
+  <block id="1155c13f250f6538852b47b97dbe4f25" category="cell">9.8 至 9.10</block>
+  <block id="9768203291187adb613281fb54af4083" category="cell">ONTAP 更新的準備工作會在 BlueXP  軟體更新畫面中進行。您將被導覽至系統管理員、以執行實際的 ONTAP 更新。</block>
+  <block id="60b64e93a40027428832c857c7a71b2d" category="cell">低於 9.7</block>
+  <block id="33aad00fefff1fbc590e315d690c00a8" category="inline-link-macro">手動更新儲存系統</block>
+  <block id="a829c0850bfb0d68ecc9eb68603b5023" category="cell">此叢集不支援自動 ONTAP 更新。您需要手動更新 ONTAP 。如需更多資訊、請參閱 <block ref="a1f8498c9b7905b725c4102bd3d5d83c" category="inline-link-macro-rx"></block>。</block>
+  <block id="9169e93aaf5c11f156f5da5dee429ab9" category="section-title">使用 BlueXP  軟體更新的優點</block>
+  <block id="f0daf4a0e66ba6802960eda6390d1d61" category="paragraph">更新 ONTAP 儲存系統可協助您改善儲存系統的效能、安全性和功能。</block>
+  <block id="b99345e3abc797269f14f7b47fa81ccf" category="paragraph">更新 ONTAP 儲存系統的一些優點包括：</block>
+  <block id="702c403ccdc01021f46487913f934cdb" category="list-text">您可以存取 ONTAP 提供的最新功能和增強功能、例如新的通訊協定、資料服務和雲端整合選項。</block>
+  <block id="ff5911eb7729deebb1c8642d501d5604" category="list-text">您可以修正任何可能影響系統穩定性、可靠性或安全性的錯誤或弱點。</block>
+  <block id="63d0120e90448009ab2836abf7b1b7a5" category="list-text">您可以套用最新的修補程式和改良功能、以最佳化系統效能和效率。</block>
+  <block id="b7a37e1c1d64d306cdbebfe5093202c7" category="list-text">您可以確保與其他 NetApp 產品、協力廠商應用程式及雲端供應商的相容性與互通性。</block>
+  <block id="2bba882789946cd1d1a2e47e7d673985" category="list-text">NetApp 為最新的 ONTAP OS 版本提供持續支援與維護、讓您受益良多。</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="18720152dc5c7d0c9fdd39d12dc9d74b" category="paragraph">NetApp 不收取您使用服務的費用。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
+  <block id="50638c769e0ae9b6b94a262aa8dd8171" category="summary">瞭解 BlueXP  軟體更新中引進的新功能和增強功能。</block>
+  <block id="dcd816bd038e1c6db49deb2063490e73" category="doc">BlueXP  軟體更新的新功能</block>
+  <block id="4ebdd7e96e34aaa7673bb3eef22feef7" category="paragraph">瞭解 BlueXP  軟體更新的新功能。</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024 年 8 月 7 日</block>
+  <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 更新</block>
+  <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。</block>
+  <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  軟體更新</block>
+  <block id="3b51dbc206ff39db31b586cff27b62b6" category="paragraph">深入瞭解 <block ref="5932964ef1a5389f9863c988396d1e93" category="inline-link-macro-rx"></block>。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自我支援選項</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">利用NetApp支援建立案例</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">開始之前</block>
+  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">瞭解如何管理與 BlueXP 登入相關的認證</block>
+  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">若要使用 * 建立案例 * 功能、您必須先將 NetApp 支援網站認證與 BlueXP  登入建立關聯。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block></block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的 ONTAP 系統開啟案例、則您的 NSS 帳戶必須與該系統的序號相關聯。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在 BlueXP 中、選取 * 說明 &gt; 支援 * 。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「*資源*」頁面上、選擇「技術支援」下的其中一個可用選項：</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想與電話上的某人通話、請選取 * 致電 * 。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">選擇 * 建立案例 * 、與 NetApp 支援專家一起開啟 Ticket ：</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">如需支援案例的記錄、您可以選取 * 設定 &gt; 時間軸 * 、然後尋找名為「建立支援案例」的動作。最右側的按鈕可讓您展開動作以查看詳細資料。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
+  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以使用下列其中一個選項尋求協助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支援案例（預覽）</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接從BlueXP檢視及管理作用中和已解決的支援案例。您可以管理與您的NSS帳戶和貴公司相關的個案。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理可透過預覽取得。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">頁面頂端的案例管理儀表板提供兩種檢視：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側檢視顯示您所提供的使用者nssc帳戶在過去3個月內開啟的個案總數。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側檢視顯示過去3個月內、貴公司層級根據您的使用者nssc帳戶所開啟的個案總數。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表格中的結果會反映您所選檢視的相關個案。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以新增或移除感興趣的欄、也可以篩選優先順序和狀態等欄的內容。其他欄則只提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">如需詳細資料、請參閱下列步驟。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在個別案例層級、我們提供更新案例附註或關閉尚未處於「已結案」或「待結案」狀態的案例的功能。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">選取 * 個案管理 * 、如果出現提示、請將您的 NSS 帳戶新增至 BlueXP 。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">「*個案管理*」頁面會顯示與您的BlueXP使用者帳戶相關聯的與NSS帳戶相關的未決個案。這是顯示在「* nssnmanagement *」頁面頂端的相同nss.帳戶。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">（可選）修改表格中顯示的資訊：</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在 * 組織案例 * 下、選取 * 檢視 * 以檢視與貴公司相關的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">選擇確切的日期範圍或選擇不同的時間範圍、以修改日期範圍。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理頁面上方表格上方選項的快照、可讓您選擇確切的日期範圍或過去7天、30天或3個月。</block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">篩選欄的內容。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">「狀態」欄中篩選選項的快照、可讓您篩選出符合特定狀態（例如「作用中」或「已關閉」）的個案。</block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">出現在表格中的加號圖示</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">選取要顯示的欄、然後選擇要顯示的欄、即可變更表格中 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 顯示的欄。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">顯示可在表格中顯示之欄的快照。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">選取並選取其中一個可用選項、以管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> ：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 結案案例 * ：提供結案原因的詳細資料、並選取 * 結案案例 * 。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">需要註冊支援、才能獲得 BlueXP 及其儲存解決方案與服務專屬的技術支援。也需要註冊支援、才能啟用 Cloud Volumes ONTAP 系統的重要工作流程。</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">註冊支援並不會啟用雲端供應商檔案服務的 NetApp 支援。如需雲端供應商檔案服務、其基礎架構或任何使用服務的解決方案的相關技術支援、請參閱該產品的 BlueXP 文件中的「取得說明」。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
+  <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
+  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">註冊您的 BlueXP 帳戶以取得 NetApp 支援</block>
+  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">若要註冊以取得支援並啟動支援授權、 BlueXP 帳戶中的一位使用者必須將 NetApp 支援網站 帳戶與其 BlueXP 登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在 BlueXP 主控台的右上角、選取「設定」圖示、然後選取 * 認證 * 。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">選取 * 使用者認證 * 。</block>
+  <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">若要確認註冊程序是否成功、請選取「說明」圖示、然後選取 * 「支援 * 」。</block>
+  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">「 * 資源 * 」頁面應顯示您的帳戶已註冊以取得支援。</block>
+  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
+  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP 帳戶尚未註冊支援。只要帳戶中有一位使用者已遵循這些步驟、您的帳戶就已登錄。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
+  <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成建立 NetApp 支援網站帳戶<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">請務必選擇適當的使用者層級、通常為* NetApp客戶/終端使用者*。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">請務必複製上述序號欄位使用的BlueXP帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步驟、將新的 NSS 帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新推出</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客戶、而且您沒有新的NSS帳戶、請依照下列每個步驟操作。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">在 BlueXP 主控台的右上角、選取「說明」圖示、然後選取 * 「支援 * 」。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支援註冊網站</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">瀏覽<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 並選取 * 我不是 NetApp 的註冊客戶 * 。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（紅色星號）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*產品系列*欄位中、選取* Cloud Manager*、然後選取適用的帳單供應商。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">複製上述步驟2的帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系統會立即將電子郵件傳送至提供的信箱、以完成此安全交易。如果驗證電子郵件在幾分鐘內未送達、請務必檢查您的垃圾郵件資料夾。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">確認電子郵件中的行動。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
+  <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">擁有 NetApp 支援網站帳戶後、請完成下的步驟、將帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">建立 NSS 認證的關聯、以取得 Cloud Volumes ONTAP 支援</block>
+  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站 認證與 BlueXP 帳戶建立關聯：</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">註冊隨用隨付 Cloud Volumes ONTAP 系統以取得支援</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">您必須提供您的NSS帳戶、才能啟動系統支援、並取得NetApp技術支援資源的存取權。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自帶授權（Cloud Volumes ONTAP BYOL）即可部署</block>
+  <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">您必須提供您的NSS帳戶、才能讓BlueXP上傳授權金鑰、並啟用您所購買期間的訂閱。這包括定期續約的自動更新。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">升級Cloud Volumes ONTAP 更新版的更新版</block>
+  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
+  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">選取 *NSS Management &gt; Add NSS Account* 。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">系統提示時、請選取 * 繼續 * 以重新導向至 Microsoft 登入頁面。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上，提供您的 NetApp 支援網站註冊電子郵件地址和密碼，以執行身分驗證程序。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS-帳戶必須是客戶層級的帳戶（而非來賓帳戶或暫存帳戶）。您可以擁有多個客戶層級的NSS帳戶。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果該帳戶是合作夥伴層級帳戶、則只能有一個NSS帳戶。如果您嘗試新增客戶層級的NSS帳戶、但有合作夥伴層級的帳戶存在、您會收到下列錯誤訊息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「此帳戶不允許使用新增服務客戶類型、因為已經有不同類型的新增服務使用者。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您擁有預先存在的客戶層級的NSS帳戶、並嘗試新增合作夥伴層級的帳戶、情況也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個橫點的圖示</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在 *NSS Management* 頁面上、您可以從功能表顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證權杖、功能表中也有 * 更新認證 * 選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
+  <block id="649ed8db0df4319148d849b5ba7e7130" category="sidebar">BlueXP  軟體更新服務可讓客戶簡化 ONTAP 更新。它可自動化評估、規劃及執行程序。</block>
+  <block id="387c5f96484b6686e0ecd42c72fb614f" category="sidebar">BlueXP  軟體更新文件</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="63cab7e54a24e15e3bf97cde59e41597" category="sidebar">BlueXP  軟體更新的新功能</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">先決條件</block>
+  <block id="a29bb38d5b9b20fc4eeb31d18e5bec8c" category="sidebar">登入 BlueXP  軟體更新</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常見問題集</block>
+  <block id="f65eafc37ceb7865c90318dc460588b6" category="sidebar">使用 BlueXP 經濟效益</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="bd10fd9cd73654d01bc6a7719a4f03c3" category="sidebar">BlueXP  軟體更新文件</block>
+  <block id="2b973f41c5b1f5465e41113e137d7a93" category="sidebar">使用 BlueXP  軟體更新</block>
+  <block id="c875e3d623333d854efa96be52543e6c" category="sidebar">選擇 ONTAP 目標版本</block>
+  <block id="49ec4b514e47d3aeca96090e2282a2b0" category="sidebar">修正 ONTAP 封鎖程式並確認警告</block>
+  <block id="043756462732d85786f9ee8ff131baeb" category="sidebar">開始使用 ONTAP 更新</block>
+  <block id="cfa9378dd942a8238f797353b6dd5400" category="sidebar">瞭解 ONTAP 更新</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">常見問題集</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+</blocks>

@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates.html 
+keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+summary: 使用 BlueXP  軟體更新、順暢地更新您的 ONTAP 儲存系統、以充分利用新的增強功能。 
+---
+= 瞭解 BlueXP  軟體更新
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 BlueXP  軟體更新來更新 ONTAP 儲存系統、以利用新的增強功能。這有助於降低成本、加速關鍵工作負載、並改善安全性。
+
+BlueXP  軟體更新服務可讓客戶簡化 ONTAP 更新。它可自動化評估、規劃及執行程序。智慧型升級顧問會預測哪些版本最適合特定環境、建議版本以修正問題、提高效率並提高系統安全性、讓客戶能夠判斷出最符合需求的選項。然後、它會散佈軟體套件、並自動執行自動化的非經銷升級（ andu ）、而不受支援服務的影響。
+
+
+
+== 支援的系統
+
+
+
+=== 系統ONTAP
+
+只有在 ONTAP 9.10 或更新版本上執行時、才能使用 BlueXP  軟體更新服務來完成 ONTAP 更新。
+
+下列資訊提供不同 ONTAP 版本的軟體更新程序：
+
+|===
+| *目前的ONTAP版本* | * 更新程序 * 
+
+
+| 9.12 及更高版本 | ONTAP 更新的所有步驟都會在 BlueXP  中進行。 
+
+
+| 9.10 至 9.12 | ONTAP 更新的準備工作會在 BlueXP  軟體更新畫面中進行。您將被導覽至系統管理員、以執行實際的 ONTAP 更新。若要在 BlueXP  中執行 ONTAP 更新的所有步驟，您需要 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["設定連接器"]。 
+
+
+| 9.8 至 9.10 | ONTAP 更新的準備工作會在 BlueXP  軟體更新畫面中進行。您將被導覽至系統管理員、以執行實際的 ONTAP 更新。 
+
+
+| 低於 9.7 | 此叢集不支援自動 ONTAP 更新。您需要手動更新 ONTAP 。如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["手動更新儲存系統"]。 
+|===
+
+
+== 使用 BlueXP  軟體更新的優點
+
+更新 ONTAP 儲存系統可協助您改善儲存系統的效能、安全性和功能。
+
+更新 ONTAP 儲存系統的一些優點包括：
+
+* 您可以存取 ONTAP 提供的最新功能和增強功能、例如新的通訊協定、資料服務和雲端整合選項。
+* 您可以修正任何可能影響系統穩定性、可靠性或安全性的錯誤或弱點。
+* 您可以套用最新的修補程式和改良功能、以最佳化系統效能和效率。
+* 您可以確保與其他 NetApp 產品、協力廠商應用程式及雲端供應商的相容性與互通性。
+* NetApp 為最新的 ONTAP OS 版本提供持續支援與維護、讓您受益良多。
+
+
+
+
+== 成本
+
+NetApp 不收取您使用服務的費用。

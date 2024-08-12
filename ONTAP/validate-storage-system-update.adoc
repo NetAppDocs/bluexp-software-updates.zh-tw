@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/validate-storage-system-update.html 
+keywords: validate status of ontap update, track status of ontap update 
+summary: 驗證 ONTAP 更新的狀態、以決定應執行的後續步驟。 
+---
+= 驗證 ONTAP 儲存系統更新的狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP 更新程序完成後、您應該檢查 ONTAP 更新的狀態。
+
+.步驟
+. 從 BlueXP  左側導覽中、選取 * 健全狀況 > 軟體更新 * 。
+. 按一下 * 歷程記錄 * 索引標籤以檢視 ONTAP 更新的狀態。
+
+
+
+NOTE: 叢集需要 2 到 3 小時才能反映在歷程記錄索引標籤中。
