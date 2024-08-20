@@ -31,7 +31,7 @@ summary: 查看 BlueXP  軟體更新常見問題集的答案。
 
 * 為什麼我會看到不同畫面的不同更新？ *
 
-這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支援ONTAP 的支援的支援系統"]。
+這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如果您沒有 BlueXP  連接器、系統會將您重新導向至系統管理員、並要求您重新輸入 ONTAP 叢集認證。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支援ONTAP 的支援的支援系統"]。
 
 * 我需要什麼才能探索叢集？ *
 

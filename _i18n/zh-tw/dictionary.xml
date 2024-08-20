@@ -100,7 +100,6 @@
   <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">* 為什麼我在軟體更新儀表板中看到舊版 ONTAP 、即使更新叢集的 ONTAP 版本也一樣？ *</block>
   <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">* 為什麼我會看到不同畫面的不同更新？ *</block>
   <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">支援ONTAP 的支援的支援系統</block>
-  <block id="9acf8bc64d0336944e98a10c4b868c28" category="paragraph">這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
   <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">* 我需要什麼才能探索叢集？ *</block>
   <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">若要為所需的叢集執行 ONTAP 更新、您需要 ONTAP 叢集 IP 和管理認證才能連線至叢集。在叢集探索過程中、您需要提供這些詳細資料、才能自動執行 ONTAP 更新。</block>
   <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">使用 BlueXP  軟體更新、順暢地更新您的 ONTAP 儲存系統、以充分利用新的增強功能。</block>
@@ -337,4 +336,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+  <block id="e9286f8f31c5b4b57dc1c4b27396c2bf" category="paragraph">這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如果您沒有 BlueXP  連接器、系統會將您重新導向至系統管理員、並要求您重新輸入 ONTAP 叢集認證。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
