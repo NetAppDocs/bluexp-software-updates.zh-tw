@@ -23,4 +23,4 @@ summary: 瞭解 BlueXP  軟體更新中引進的新功能和增強功能。
 
 BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。
 
-深入瞭解 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP  軟體更新"^]。
+深入瞭解 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP  軟體更新"]。
