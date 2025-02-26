@@ -1,17 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: ONTAP/choose-ontap-910-later.html 
-keywords: choose ontap target version, ontap update recommendations, identify ontap target version 
+keywords: choose ontap target version, ontap update recommendations, identify ontap target version, recommended version, benefits and risks or ONTAP version 
 summary: 在升級 ONTAP 儲存系統之前、請先瞭解每個 ONTAP 版本的優點和風險。 
 ---
-= 選擇 ONTAP 目標 9.10 版或更新版本
+= 比較 ONTAP 版本，瞭解使用 BlueXP  軟體更新的優點和風險
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-在選擇儲存系統的 ONTAP 版本之前、請務必先找出與 ONTAP 目標版本相關的優點並瞭解風險。
+在更新儲存系統的 ONTAP 版本之前，請務必先比較並瞭解 ONTAP 目標版本的相關優點和風險。
 
 您可以選擇目標版本、並將其與目前版本進行比較、以瞭解在 ONTAP 上更新至特定版本的好處。您也可以看到將解決的風險、以及更新至特定 ONTAP 版本時所產生的新風險（如果有）。
 

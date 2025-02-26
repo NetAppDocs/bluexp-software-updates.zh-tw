@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: release-notes/whats-new.html 
-keywords: software updates, ontap update 
+keywords: 'software updates, ontap update, what"s new, enhancements' 
 summary: 瞭解 BlueXP  軟體更新中引進的新功能和增強功能。 
 ---
 = BlueXP  軟體更新的新功能

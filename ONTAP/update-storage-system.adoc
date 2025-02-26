@@ -4,22 +4,22 @@ permalink: ONTAP/update-storage-system.html
 keywords: update ontap storage system 
 summary: 更新您的 ONTAP 儲存系統、以充分利用新的增強功能。 
 ---
-= 完成 ONTAP 儲存系統更新
+= 使用 BlueXP  軟體更新啟動 ONTAP 更新
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-識別出 ONTAP 目標版本並修正並確認所有封鎖程式之後、您現在即可完成 ONTAP 儲存系統的更新。
+識別出 ONTAP 目標版本，修正並確認所有封鎖程式之後，您現在就可以開始更新 ONTAP 儲存系統。
 
 .步驟
 . 從 BlueXP  左側導覽中、選取 * 健全狀況 > 軟體更新 * 。
 +
 畫面會顯示需要軟體更新的叢集清單。
 
-. 識別儲存系統的 ONTAP 目標版本。如需識別 ONTAP 目標版本的相關資訊，請參閱 link:../ONTAP/choose-ontap-910-later.html["選擇 ONTAP 目標 9.10 版或更新版本"]。
-. 修正並認可 ONTAP 封鎖程式。如需修復封鎖程式的相關資訊，請參閱 link:../ONTAP/fix-blockers-warnings.html["修正並認可 ONTAP 封鎖程式"]。
+. 識別儲存系統的 ONTAP 目標版本。如需識別 ONTAP 目標版本的相關資訊，請參閱 link:../ONTAP/choose-ontap-910-later.html["比較 ONTAP 版本，瞭解使用 BlueXP  軟體更新的優點和風險"]。
+. 修正並認可 ONTAP 封鎖程式。如需修復封鎖程式的相關資訊，請參閱 link:../ONTAP/fix-blockers-warnings.html["在 ONTAP 升級之前，請先使用 BlueXP  軟體更新來修正所有封鎖程式"]。
 . 閱讀並接受終端使用者授權合約。
 +
 等待擷取 ONTAP 映像。

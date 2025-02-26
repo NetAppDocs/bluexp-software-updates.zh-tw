@@ -11,7 +11,7 @@ summary: 驗證 ONTAP 更新的狀態、以決定應執行的後續步驟。
 
 
 [role="lead"]
-ONTAP 更新程序完成後、您應該檢查 ONTAP 更新的狀態。
+您可以使用 BlueXP  軟體更新來驗證 ONTAP 更新的狀態。
 
 .步驟
 . 從 BlueXP  左側導覽中、選取 * 健全狀況 > 軟體更新 * 。

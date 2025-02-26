@@ -4,16 +4,16 @@ permalink: get-started/login-software-updates.html
 keywords: bluexp login, software updates log in 
 summary: 登入並存取 BlueXP  軟體更新服務。 
 ---
-= 存取 BlueXP  軟體更新
+= 存取 BlueXP  軟體更新以更新 ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以登入 NetApp BlueXP  來使用 BlueXP  軟體更新。
+若要存取 BlueXP  軟體更新，您必須登入 BlueXP  。
 
-若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["深入瞭解登入"^]。
+若要登入，您可以使用 NetApp 支援網站認證，也可以使用電子郵件和密碼登入 NetApp 雲端。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["深入瞭解登入"^]。
 
 .步驟
 . 開啟網頁瀏覽器並前往 link:https://console.bluexp.netapp.com/["BlueXP主控台"^]。

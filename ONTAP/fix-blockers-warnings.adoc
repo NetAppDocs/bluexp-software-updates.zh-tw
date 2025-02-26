@@ -4,7 +4,7 @@ permalink: ONTAP/fix-blockers-warnings.html
 keywords: fix ontap blockers and warnings, ontap update precheck, acknowledge warnings 
 summary: 修正 ONTAP 封鎖程式、並確認會導致您無法完成 ONTAP 更新的警告。 
 ---
-= 修正並認可 ONTAP 封鎖程式
+= 在 ONTAP 升級之前，請先使用 BlueXP  軟體更新來修正所有封鎖程式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ summary: 修正 ONTAP 封鎖程式、並確認會導致您無法完成 ONTAP 更
 +
 畫面會顯示需要軟體更新的叢集清單。
 
-. 識別儲存系統的 ONTAP 目標版本。如需識別 ONTAP 目標版本的相關資訊，請參閱 link:../ONTAP/choose-ontap-910-later.html["選擇 ONTAP 目標 9.10 版或更新版本"]。
+. 識別儲存系統的 ONTAP 目標版本。如需識別 ONTAP 目標版本的相關資訊，請參閱 link:../ONTAP/choose-ontap-910-later.html["比較 ONTAP 版本，瞭解使用 BlueXP  軟體更新的優點和風險"]。
 . 決定 ONTAP 目標版本之後、請按一下 * 準備更新 * 以啟動更新程序。
 +
 畫面會顯示封鎖程式和警告清單。

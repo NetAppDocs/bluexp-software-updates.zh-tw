@@ -2,11 +2,11 @@
 section: ontap
 title: 使用 BlueXP  軟體更新
 entries:
-- title: 選擇 ONTAP 目標版本
+- title: 比較 ONTAP 版本以瞭解更新的優點和風險
   url: "/ONTAP/choose-ontap-910-later.html"
 - title: 修正 ONTAP 封鎖程式並確認警告
   url: "/ONTAP/fix-blockers-warnings.html"
-- title: 完成 ONTAP 儲存系統更新
+- title: 啟動 ONTAP 儲存系統更新
   url: "/ONTAP/update-storage-system.html"
 - title: 驗證 ONTAP 儲存系統更新的狀態
   url: "/ONTAP/validate-storage-system-update.html"
