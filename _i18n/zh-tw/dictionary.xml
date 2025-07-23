@@ -23,15 +23,10 @@
   <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">識別出 ONTAP 儲存系統的 ONTAP 目標版本之後、您應該修正並認可所有封鎖程式、並在更新 ONTAP 儲存系統之前檢閱警告。</block>
   <block id="2458f462c36fbeec4b6536099135f298" category="paragraph">修正並認可所有封鎖程式是強制性的、並確保軟體更新程序順暢無礙。</block>
   <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">畫面會顯示需要軟體更新的叢集清單。</block>
-  <block id="06cd15ffbdad395f54961af4b4da3f7d" category="list-text">決定 ONTAP 目標版本之後、請按一下 * 準備更新 * 以啟動更新程序。</block>
   <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">畫面會顯示封鎖程式和警告清單。</block>
   <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">選取封鎖程式以檢視修正封鎖程式的指示。</block>
   <block id="8aa655b81ac9a54174b8b2f3c0e078b3" category="list-text">手動執行所提供的步驟來修正封鎖程式。</block>
-  <block id="dd65b396655e879f1cc555905f551ba9" category="list-text">選取已修復的封鎖程式、然後按一下 * 「確認選取 * 」、確認該封鎖程式已修復。</block>
   <block id="deef003c349019061441ab60dd6ecf90" category="admonition">您必須修正並認可所有封鎖程式、才能繼續更新。</block>
-  <block id="f00541528c969eb6abe8cce5f5281ccc" category="list-text">按一下 * 警告 * 索引標籤、在繼續進行軟體更新之前檢閱警告。</block>
-  <block id="3a49822934e3057e70050398c92aa888" category="list-text">按一下 * 「 Acknowledge * （確認 * ）」標籤以檢視已修正的封鎖程式。</block>
-  <block id="5143d195cc41390e0e4722e37a8b670d" category="list-text">按一下 * 繼續更新 * 以繼續更新程序。</block>
   <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">更新您的 ONTAP 儲存系統、以充分利用新的增強功能。</block>
   <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="doc">完成 ONTAP 儲存系統更新</block>
   <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">閱讀並接受終端使用者授權合約。</block>
@@ -51,7 +46,6 @@
   <block id="24958f1bc0c9e80abac7daea72c06854" category="list-text">從 BlueXP  左側導覽中、選取 * 健全狀況 &gt; 軟體更新。 *</block>
   <block id="20b41c007263bf3cb834352319595be6" category="summary">在繼續 ONTAP 更新之前、請先檢閱先決條件和要求。</block>
   <block id="7efc4f28b854970100677afdf18e3743" category="paragraph">若要使用 BlueXP  軟體更新、您應確保環境符合所有需求。</block>
-  <block id="f79a5712ad4df34137efe352ad13262f" category="list-text">系統管理員 Privileges 可使用系統管理員執行軟體更新。</block>
   <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">執行軟體更新時、系統管理員認證可用於所需的叢集。</block>
   <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">叢集中的所有節點都在傳送 AutoSupport 資料。</block>
   <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">所有節點均應在 ONTAP 9.10 或更新版本上執行。</block>
@@ -151,8 +145,6 @@
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自我支援選項</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
@@ -308,7 +300,6 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="e9286f8f31c5b4b57dc1c4b27396c2bf" category="paragraph">這是因為目前的 ONTAP 版本以及叢集的 BlueXP  Connector 無法使用。BlueXP  Connector 會在 BlueXP  中執行 ONTAP 更新、不需要移出 BlueXP  進行更新。如果您沒有 BlueXP  連接器、系統會將您重新導向至系統管理員、並要求您重新輸入 ONTAP 叢集認證。如需不同版本 ONTAP 的 ONTAP 更新程序相關資訊，請參閱 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>。</block>
-  <block id="7fd857a6ab8e5cb6d32815d3414ad1f1" category="list-text">BlueXP  組織可供使用。</block>
   <block id="6e3e90ee630b7faf0d6dad037bbd177a" category="list-text">工作環境是在 BlueXP  中設定。</block>
   <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作環境清單位於您在服務頂端橫幅中選取的 BlueXP  組織（或帳戶）、專案（或工作區）和 Connector 範圍內。</block>
   <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">註冊您的 BlueXP  帳戶序號（您的 20 位數 960xxxxxxxxx 序號位於 BlueXP  的「支援資源」頁面）。</block>
@@ -344,4 +335,20 @@
   <block id="f50a226c5a51111405309ae78236d95d" category="doc">降低風險</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">在 BlueXP  軟體更新的摘要區段中，您現在可以檢視作業系統更新可減輕的風險總數。這可讓使用者評估其安裝基礎上的安全性與穩定性改善。</block>
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025 年 4 月 02 日</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">所需的BlueXP角色：</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解 BlueXP 訪問角色。</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="0fdb0ceffdc4d2d2cdb1f927a8e4bbe5" category="list-text">選擇*開始更新*以啟動更新程序。</block>
+  <block id="33ba4cda6895a31680b2de36d86dab15" category="list-text">確定ONTAP目標版本後，選擇「準備更新」以啟動更新程序。</block>
+  <block id="6a9157b81110d193ae9726acd434a73b" category="list-text">選擇已修復的阻止程序，然後選擇*確認選擇*以確認該阻止程序已修復。</block>
+  <block id="f1bceb312606e73e3fc3cb05ba0db012" category="list-text">在繼續軟體更新之前，選擇「*警告*」標籤以查看警告。</block>
+  <block id="185674eb1bcbdcee59090d2a4854c5bd" category="list-text">選擇“*確認*”標籤來查看已修復的阻止程式。</block>
+  <block id="46ab049c063b4859793fe4d01b477a97" category="list-text">選擇*繼續更新*以繼續更新流程。</block>
+  <block id="b6f64caf7d0bc5014c5dc5b478d3b150" category="paragraph">組織管理員、資料夾或專案管理員、儲存管理員、儲存檢視器或系統健康專家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">需要 BlueXP 存取角色</block>
+  <block id="53dafb5a873d00157d780f773c016fed" category="paragraph">您現在需要以下存取角色之一來安裝軟體更新：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*、*儲存檢視者*或*儲存運作狀況專家*。具有儲存檢視者角色的使用者擁有與軟體更新相關的各種權限，但無法安裝軟體更新。 <block ref="5f4605f8f9a6dca73fc40e564cf6fcbc" category="inline-link-macro-rx"></block></block>
+  <block id="0a7ea76c19ce14ea769fa96b38086400" category="paragraph">您還需要擁有以下存取角色之一：組織管理員、資料夾或專案管理員或儲存管理員。</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025 年 12 月 5 日</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>

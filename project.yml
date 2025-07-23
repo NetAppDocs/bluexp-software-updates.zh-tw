@@ -1,7 +1,6 @@
 ---
 settings:
   name: BlueXP software updates
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:

@@ -13,11 +13,12 @@ summary: 在繼續 ONTAP 更新之前、請先檢閱先決條件和要求。
 [role="lead"]
 在繼續 ONTAP 更新之前，您應該先檢閱先決條件和要求。您可以使用 BlueXP  軟體更新來驗證作業環境，登入，網路存取和網頁瀏覽器的準備度。
 
+.所需的BlueXP角色：
+組織管理員、資料夾或專案管理員、儲存管理員、儲存檢視器或系統健康專家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解 BlueXP 訪問角色。"^]
+
 若要使用 BlueXP  軟體更新、您應確保環境符合所有需求。
 
-* BlueXP  組織可供使用。
 * 工作環境是在 BlueXP  中設定。
-* 系統管理員 Privileges 可使用系統管理員執行軟體更新。
 * 執行軟體更新時、系統管理員認證可用於所需的叢集。
 * 叢集中的所有節點都在傳送 AutoSupport 資料。
 * 所有節點均應在 ONTAP 9.10 或更新版本上執行。
